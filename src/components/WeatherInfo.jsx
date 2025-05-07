@@ -60,7 +60,7 @@ const WeatherInfo = ({ weatherData }) => {
               {weather?.[0]?.main}
             </span>
           </div>
-          <div className="flex justify-center items-center gap-8 mt-8">
+          <div className="flex justify-center items-center gap-8 mt-8 mb-8">
             {weatherDetails.map((detail) => (
               <div key={detail.id} className="">
                 <div>

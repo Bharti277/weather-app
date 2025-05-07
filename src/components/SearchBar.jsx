@@ -15,7 +15,7 @@ const SearchBar = ({ cityName, setCityName, getWeatherData }) => {
         placeholder="Enter City Name"
       />
       <button
-        className="text-white cursor-pointer absolute right-12"
+        className="text-white cursor-pointer absolute right-15"
         type="submit"
       >
         <FaCirclePlus size={36} color="#1f2687" />

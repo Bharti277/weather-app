@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="w-screen h-screen bg-gray-300 flex justify-center items-center overflow-scroll p-8">
-      <div className="drop-shadow-2xl rounded-xl bg-gray-300 w-2/3">
+      <div className="drop-shadow-2xl rounded-xl bg-gray-300 min-w-120 w-120">
         <div className="flex justify-center items-center mt-7">
           <SearchBar
             cityName={cityName}

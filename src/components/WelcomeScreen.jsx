@@ -5,7 +5,7 @@ const WelcomeScreen = () => {
   return (
     <div>
       <div className="text-center mt-16">
-        <h1 className="text-4xl text-[rgba(31,38,135,1)]">WeatherX</h1>
+        <h1 className="text-4xl text-[rgba(31,38,135,1)]">Weather</h1>
         <h4 className="text-2xl font-medium mt-6">
           Find the weather of your city
         </h4>
